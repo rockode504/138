@@ -1,0 +1,47 @@
+body
+{
+    background-image: linear-gradient(to right top, #f19833, #d9259d, #18c1b3, #0aaa3f, #940039);
+}
+
+.heading
+{
+    font-family: Comfortaa;
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    border-radius: 100px;
+}
+
+#start, #numberOfObjects, #status
+{
+    font-family: Comfortaa;
+    font-size: 20px;
+    border-radius: 100px;
+}
+
+.footer
+{
+    position: fixed;
+    font-family: Comfortaa;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: orange;
+    line-height: 3;
+    border-radius: 100px;
+    text-align: center;
+}
+
+canvas
+{
+    border: solid deeppink 3px;
+    border-radius: 50px;
+    box-shadow: firebrick 7px 7px 20px;
+    margin-top: 110px;
+}
+
+input
+{
+    font-family: Comfortaa;
+    width: 40%; 
+}
